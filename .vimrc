@@ -21,10 +21,24 @@ Plugin 'Valloric/YouCompleteMe'
 " Put your non-Plugin stuff after this line
 
 
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+let g:ycm_min_num_of_chars_for_completion = 1
+let g:ycm_min_num_identifier_candidate_chars = 0
+let g:ycm_collect_identifiers_from_tags_files = 0
+let g:ycm_min_num_identifier_candidate_chars = 0
 
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
+augroup ProjectDrawer
+  autocmd!
+  autocmd VimEnter * :Vexplore
+augroup END
 
-
-
+set nohlsearch
+:set autochdir
 execute pathogen#infect()
 
 filetype plugin indent on
@@ -90,13 +104,13 @@ set background=dark
 
 set encoding=utf8
 
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
+"set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
 
 
 "Syntastic settings
 
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
@@ -125,4 +139,11 @@ let g:lightline = {
       \ 'separator': { 'left': '>', 'right': '<' },
       \ 'subseparator': { 'left': '>', 'right': '<' }
       \ }
+
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
 
