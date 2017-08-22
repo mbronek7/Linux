@@ -97,3 +97,5 @@ n gT – cofnięcie się do zakładki znajdującej się w odległości n od aktu
 n\cc - Skomentuj n linii
 n\cu - Odkomentuj n linii
 
+#SNIPY ( Dodany Skrypt )
+<c-e> - wstawianie
