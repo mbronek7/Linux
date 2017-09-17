@@ -2,8 +2,8 @@
 Vex - po lewej
 Sex - ponad
 #KOPIOWANIE DO SYSTEMU
-"+yy - kopiowanie do systemu
-"*pp - wstawienie z systemu
+"+y - kopiowanie do systemu
+"*p - wstawienie z systemu
 
 
 #PORUSZANIE SIĘ PO DOKUMENCIE
@@ -97,5 +97,12 @@ n gT – cofnięcie się do zakładki znajdującej się w odległości n od aktu
 n\cc - Skomentuj n linii
 n\cu - Odkomentuj n linii
 
-#SNIPY ( Dodany Skrypt )
+#SNIPY
 <c-e> - wstawianie
+
+#HTML
+F5 - Otwórz w przeglądarce
+F8 - Otwórz link w przeglądarce
+
+#"KOMPILOWANIE" - POWTARZANIE OSTANIEJ KOMENDY
+F9 - Powtarza ostatnią komendę z !; np ruby % lub irb -I . -r %
