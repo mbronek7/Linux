@@ -174,3 +174,20 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 
+" <Ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-l> :nohl<CR><C-l>
+
+" On Linux, open URL under cursor in Firefox.
+nnoremap <F8> :silent !firefox <cfile><CR>
+nnoremap <F5> :silent update<Bar>silent !firefox %:p &<CR>
+
+"Skakanie pomiędzy def i end w Ruby itp za p[omocą %
+runtime macros/matchit.vim
+
+"Autosave
+let g:auto_save = 1  " enable AutoSave on Vim startup
+let g:auto_save_no_updatetime = 1  " do not change the 'updatetime' option
+let g:auto_save_in_insert_mode = 0  " do not save while in insert mode
+
+" Kompilowanie np: wpisuję raz :!ruby % - Potem :!! powtarza tą komendę
+nnoremap <F9> :w<CR>:!!<CR>

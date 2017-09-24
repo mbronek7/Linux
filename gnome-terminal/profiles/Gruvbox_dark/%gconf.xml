@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_theme_background" mtime="1498089062" type="bool" value="false"/>
+	<entry name="use_theme_colors" mtime="1498089062" type="bool" value="false"/>
+	<entry name="bold_color_same_as_fg" mtime="1498089062" type="bool" value="true"/>
+	<entry name="bold_color" mtime="1498089062" type="string">
+		<stringvalue>#ebebdbdbb2b2</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1498089062" type="string">
+		<stringvalue>#ebebdbdbb2b2</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1498089062" type="string">
+		<stringvalue>#282828282828</stringvalue>
+	</entry>
+	<entry name="palette" mtime="1498089062" type="string">
+		<stringvalue>#66665c5c5454:#fbfb49493434:#8383a5a59898:#d7d799992121:#b1b162628686:#454585858888:#b8b8bbbb2626:#d6d65d5d0e0e:#a8a899998484:#fbfb49493434:#8e8ec0c07c7c:#fafabdbd2f2f:#d3d386869b9b:#68689d9d6a6a:#989897971a1a:#fefe80801919</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1498089062" type="string">
+		<stringvalue>Gruvbox_dark</stringvalue>
+	</entry>
+</gconf>
