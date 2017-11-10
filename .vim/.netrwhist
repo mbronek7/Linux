@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/michal/Programming/C/playground/Ksiazka'
-let g:netrw_dirhist_2='/home/michal/Programming/C'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/michal/workspace/hello_ap/public'
+let g:netrw_dirhist_2='/home/michal/workspace/hello_ap'
+let g:netrw_dirhist_3='/home/michal/workspace/hello_ap/db'
+let g:netrw_dirhist_4='/home/michal/Desktop/test_make_arduino_pro_mini'
+let g:netrw_dirhist_5='/home/michal/Studia/Semestr III/SystemyWbudowane/Lista1/Zad4/BEZAPI'
+let g:netrw_dirhist_6='/home/michal/Desktop/go'
