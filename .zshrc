@@ -88,12 +88,18 @@ alias fala='play -n synth brownnoise synth pinknoise mix synth sine amod 0.3 10'
 alias szum='play -t sl -r48000 -c2 -n synth -1 pinknoise .1 60'
 alias whitenoise='play -n synth whitenoise'
 alias open='xdg-open'
-
+alias messenger='fb-messenger-cli'
 #My Functions
 function cd {
     builtin cd "$@" && ls -F
     }
 
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+# GO LANG PATH
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+export GOPATH=$HOME/work
+# SKRYPTY
+export PATH="$HOME/bin:$PATH"
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+export ANDROID_HOME=/home/michal

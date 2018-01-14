@@ -1,0 +1,2 @@
+Pliki są w .gconf/apps
+
