@@ -81,6 +81,7 @@ Można używać wyrażeń regularnych PERL- kompatybilnych
 :tabs – wyświetlenie informacjie o aktualnie otwartych zakładkach
 :tabnew – otwarcie pustej zakładki
 :tabnew FILE – otwarcie pliku FILE w nowej zakładce
+:tabe FILE - otwarcie pliku FILE w nowej zakładce
 :tabf FILE – otwarcie pliku w nowej zakładce
 :tabn – przejście do następnej zakładki
 gt – przejście do następnej zakładki (działa w trybie NORMAL)
@@ -106,3 +107,13 @@ F8 - Otwórz link w przeglądarce
 
 #"KOMPILOWANIE" - POWTARZANIE OSTANIEJ KOMENDY
 F9 - Powtarza ostatnią komendę z !; np ruby % lub irb -I . -r %
+
+#"CTRL + P"
+<F5> - Odświeżenie ścieżek
+
+#Spacja na paru liniach
+<CTRL>+<V> - Zaznacz kilka linii, potem : le 4 <- ilość spacji od marginesu
+4>> - $ linie tabulator w prawo analogicznie <<
+
+#REDO
+<CTRL> + R - Cofanie UNDO

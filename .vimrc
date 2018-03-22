@@ -181,8 +181,6 @@ let g:UltiSnipsEditSplit="vertical"
 nnoremap <silent> <C-l> :nohl<CR><C-l>
 
 " On Linux, open URL under cursor in Firefox.
-nnoremap <F8> :silent !firefox <cfile><CR>
-nnoremap <F5> :silent update<Bar>silent !firefox %:p &<CR>
 
 "Skakanie pomiędzy def i end w Ruby itp za p[omocą %
 runtime macros/matchit.vim
