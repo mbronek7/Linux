@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/michal/Programming/KURS_VIDEO/GuestBook/spec/mailers/previews'
-let g:netrw_dirhist_2='/home/michal/Programming/KURS_VIDEO/GuestBook'
-let g:netrw_dirhist_3='/home/michal/Programming/KURS_VIDEO/GuestBook/app/mailers'
-let g:netrw_dirhist_4='/home/michal/Programming/KURS_VIDEO/GuestBook'
-let g:netrw_dirhist_5='/home/michal/Programming/KURS_VIDEO/GuestBook/app/views'
-let g:netrw_dirhist_6='/home/michal/Programming/KURS_VIDEO/GuestBook/app/views/posts_mailer'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/michal/Programming/Shop/app/assets/stylesheets'
+let g:netrw_dirhist_2='/home/michal/Programming/Shop/app/controllers'
+let g:netrw_dirhist_3='/home/michal/Programming/Shop'
+let g:netrw_dirhist_4='/home/michal/Programming/Shop/app/controllers'
+let g:netrw_dirhist_5='/home/michal/Programming/Shop'
+let g:netrw_dirhist_6='/home/michal/Programming/Shop/app/assets/stylesheets'
+let g:netrw_dirhist_7='/home/michal/Programming/Shop'
+let g:netrw_dirhist_8='/home/michal/Programming/Shop/app/views/layouts'

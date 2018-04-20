@@ -60,8 +60,8 @@ set nowrap
 set backspace=indent,eol,start
 
 set autoindent
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 set whichwrap+=<,>,h,l
 
@@ -192,3 +192,6 @@ let g:auto_save_in_insert_mode = 0  " do not save while in insert mode
 
 " Kompilowanie np: wpisuję raz :!ruby % - Potem :!! powtarza tą komendę
 nnoremap <F9> :w<CR>:!!<CR>
+" Rubocop
+nnoremap    <leader>R       :RubocopThis<CR>
+nnoremap    <leader>T       :RubocopAll<CR>
